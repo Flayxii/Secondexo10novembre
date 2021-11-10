@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-size: 15px;
+}
+header{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 6rem;
+
+}
+h1{
+    line-height: 1.5em;
+    padding: 6em 0 1em 0;
+    font-size: 16px;
+    color: rgb(184, 184, 184);
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color: black;
+    font-weight: 600;
+}
+p{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(184, 184, 184);
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+    padding: 15% 0 1em 10%;
+}
+div::before{
+    content: ' ';
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+div{
+    border-radius: 8px;
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 3rem;
+    box-shadow: 5px 5px 5px 5px rgb(185, 185, 185) ;
+}
+div p{
+
+    font-size: 12px;
+    max-width: 70%;
+    padding: 0 0 3rem 10%;
+}
+img{
+    position: relative;
+    bottom: 1em;
+    right: -70%;
+    width: 20%;
+}
+#un{
+    border-top: hsl(180, 62%, 55%) 3px solid;
+}
+#deux{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+#trois{
+    border-top: solid 3px hsl(34, 97%, 64%);
+}
+#quatre{
+
+    border-top: solid 3px hsl(212, 86%, 64%);
+}
+@media (min-width:800px) {
+    main{
+        
+    display: grid;   
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+
+
+    }
+    h1{
+        font-size: 38px;
+        padding-top: 2em;
+    }
+    header p{
+        margin: auto;
+        text-align: center;
+        font-size: 18px;
+        max-width: 60%;
+    }
+#un{
+    margin-right: 0;
+}
+#quatre{
+    margin-left: 0%;
+}
+
+}
